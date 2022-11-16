@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Read and Extraction of the Json File Completed]]>
+    </line>
+    <line>
+      <![CDATA[Post Request and Response]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-15T17:20:40 CST" name="Default suite" finished-at="2022-11-15T17:20:45 CST" duration-ms="4554">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T17:20:40 CST" name="Default test" finished-at="2022-11-15T17:20:45 CST" duration-ms="4554">
+      <class name="handlingJSonFile.HandlingJSonFile">
+        <test-method is-config="true" signature="startup()[pri:0, instance:handlingJSonFile.HandlingJSonFile@19e4653c]" started-at="2022-11-15T17:20:40 CST" name="startup" finished-at="2022-11-15T17:20:40 CST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="PostRequest()[pri:0, instance:handlingJSonFile.HandlingJSonFile@19e4653c]" started-at="2022-11-15T17:20:40 CST" name="PostRequest" finished-at="2022-11-15T17:20:44 CST" duration-ms="3872" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Read and Extraction of the Json File Completed]]>
+            </line>
+            <line>
+              <![CDATA[Post Request and Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostRequest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:handlingJSonFile.HandlingJSonFile@19e4653c]" started-at="2022-11-15T17:20:44 CST" name="TearDown" finished-at="2022-11-15T17:20:45 CST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- handlingJSonFile.HandlingJSonFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
